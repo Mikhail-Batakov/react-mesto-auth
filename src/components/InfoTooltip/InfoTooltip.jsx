@@ -23,7 +23,7 @@ export default function InfoTooltip({
         <img className="popup__icon" 
         src={isSuccess ? iconOk : iconErr} 
         alt={`Иконка ${isSuccess ? 'успешной' : 'ошибки при'} регистрации на сайте`} />
-        <h3 className="popup__title popup__title_type_info-tooltip">{isSuccess ? 'Вы успешно зарегестрировались!' : 'Что-то пошло не так! Попробуйте еще раз.'}</h3>
+        <h3 className="popup__title popup__title_type_info-tooltip">{isSuccess ? 'Вы успешно зарегистрировались!' : 'Что-то пошло не так! Попробуйте еще раз.'}</h3>
       </div>
     </div>
   );
